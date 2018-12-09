@@ -1,4 +1,8 @@
-@include('partials._head')
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    @include('partials._head')
+</head>
 <body class="fixed-header">
 @include('partials._nav')
 
