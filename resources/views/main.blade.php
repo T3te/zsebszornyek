@@ -4,9 +4,7 @@
     @include('partials._head')
 </head>
 <body class="fixed-header">
-@include('partials._nav')
-
-@include('partials._breadcrumbs')
+@yield('partials._nav')
 
 @yield('content')
 

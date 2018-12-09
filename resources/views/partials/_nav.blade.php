@@ -5,7 +5,7 @@
         <div class="navbar">
           <div class="navbar-left">
             <a class="navbar-toggle"><i class="fa fa-bars"></i></a>
-            <a href="index.html" class="logo"><img src="img/logo.png" alt="Gameforest - Game Theme HTML"></a>
+            <a href="index.html" class="logo"><img src="{{asset('img/logo.png')}}" alt="Gameforest - Game Theme HTML"></a>
             <nav class="nav">
               <ul>
                 <li class="has-dropdown">

@@ -8,7 +8,9 @@
   <link rel="stylesheet" href="{{ asset('plugins/font-awesome/css/font-awesome.min.css')}}">
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ asset('plugins/animate/animate.min.css')}}">
+
   <!-- theme css -->
+  @yield('stylesheet')
   <link rel="stylesheet" href="{{ asset('css/theme.min.css')}}">
   <link rel="stylesheet" href="{{ asset('css/custom.css')}}">
-  @yield('stylesheet')
+
