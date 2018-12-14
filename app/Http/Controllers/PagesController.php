@@ -8,7 +8,7 @@ class PagesController extends Controller
         return view('pages.welcome');
     }
     public function getAdmin() {
-        return view('pages.admin.index');
+        return view('pages.admin.welcome');
     }
     public function getBlog() {
         return view('pages.blog');
